@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[22]:
-
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -81,10 +75,3 @@ display(produtos_df)
 
 #exportar para um novo excel
 produtos_df.to_excel(r'C:\Users\MeuUsuario\Desktop\Produtos Atualizados.xlsx', index=False) #Indica que não deverá ser exportado a coluna com o índice das linhas
-
-
-# In[ ]:
-
-
-
-
